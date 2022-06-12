@@ -1,3 +1,4 @@
 #api key
 api_keys.py
 *.pyc
+*.cpython-37.pyc
