@@ -26,6 +26,7 @@ To make this a bit more interesting, I created a heat map that displays the humi
 - A max temperature lower than 25 degrees but higher than 15.
 - Wind speed less than 10 mph.
 - Zero cloudiness.
+
 After that, I used Google Places API to find the first hotel for each city within 5000 meters of my coordinates. Finally, I plotted the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
 
 
