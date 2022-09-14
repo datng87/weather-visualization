@@ -13,8 +13,11 @@ There is a strong correlation between latitude and temperature. The higher the l
 ![alt text](WeatherPy/output_data/Fig1.png)
 
 There is no correlation between latitude and other weather parameters.
+
 ![alt text](WeatherPy/output_data/Fig2.png)
+
 ![alt text](WeatherPy/output_data/Fig3.png)
+
 ![alt text](WeatherPy/output_data/Fig4.png)
 
 
@@ -23,5 +26,8 @@ To make this a bit more interesting, I created a heat map that displays the humi
 - Wind speed less than 10 mph.
 - Zero cloudiness.
 After that, I used Google Places API to find the first hotel for each city within 5000 meters of my coordinates. Finally, I plotted the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+
+![alt text](WeatherPy/output_data/heat_map_with_hotel_marker_layer.png)
 
 Voila, I now have a map of current cities with ideal weather and the nearest hotel. If I have money, I can go there and enjoy the weather immediately (just wishing...).
