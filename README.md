@@ -8,9 +8,10 @@ Here is how I approached the problem:
 
 Below are some findings:
 
-There is a strong correlation between latitude and temperature. The higher the latitude (either North or South) and lower the temperature.
+There is **a strong correlation between latitude and temperature**. The higher the latitude (either North or South) and lower the temperature.
 
 ![alt text](WeatherPy/output_data/Fig1.png)
+
 
 There is no correlation between latitude and other weather parameters.
 
